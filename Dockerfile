@@ -1,4 +1,4 @@
-FROM ruby:2.2-alpine
+FROM ruby:2.2.5-alpine
 MAINTAINER dev@parafuzo.com
 
 RUN apk add --update \
