@@ -7,6 +7,4 @@ RUN apk add --update \
     gem install bundler && \
     rm -rf /var/cache/apk/*
 
-RUN bundle config build.nokogiri --use-system-libraries
-
 CMD ["/bin/sh"]
